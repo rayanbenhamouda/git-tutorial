@@ -8,8 +8,8 @@ def guess_loop():
     pseudo = input("enter your username: ")
     # This is the number the user will have to guess, chosen randomly in between 1 and 100
     nbr_essaie = 5
-    number_to_guess = random.randint(1, 100)
-    print("I have in mind a number in between 1 and 100, can you find it?")
+    number_to_guess = random.randint(1, 50)
+    print("I have in mind a number in between 1 and 50, can you find it?")
     print("you have 5 tries")
     # Replay the question until the user finds the correct number
     while True:
